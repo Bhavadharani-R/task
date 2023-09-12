@@ -1,0 +1,12 @@
+CREATE DATABASE worldline;
+
+USE worldline;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    course VARCHAR(255) NOT NULL,
+    dept VARCHAR(255) NOT NULL,
+    gender VARCHAR(255) NOT NULL
+);

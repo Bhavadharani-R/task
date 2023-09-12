@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Student Information</h1>
+    <ul id="data">
+        <% for (let student of students) { %>
+            <li>Name: <%= student.name %></li>
+            <li>Age: <%= student.age %></li>
+            <li>Course: <%= student.course %></li>
+            <li>Department: <%= student.dept %></li>
+            <li>Gender: <%= student.gender %></li>
+            <hr>
+        <% } %>
+    </ul>
+</body>
+</html>
+
